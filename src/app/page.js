@@ -21,12 +21,12 @@ export default function Home() {
         direction="right"
         style={{ background: "rgba(255,255,255,0.95)" }}
       >
-        <div className="p-4 pt-11">
+        <div className="p-4 max-w-[600px] mx-auto pt-11">
           <div className="flex justify-between items-center">
             <span className="font-medium">Сагс</span>
             <div
               onClick={toggleDrawer}
-              className="w-10 h-10 cursor-pointer hover:opacity-70 rounded-md flex items-center justify-center bg-slate-900"
+              className="w-10 h-10 shadow-md cursor-pointer hover:opacity-70 rounded-md flex items-center justify-center bg-slate-900"
             >
               <img className="w-5 " src="./x.svg" alt="" />
             </div>
@@ -42,7 +42,7 @@ export default function Home() {
         />
         <div
           onClick={toggleDrawer}
-          className="w-10 h-10 cursor-pointer hover:opacity-70 rounded-md flex items-center justify-center bg-slate-900"
+          className="w-10 h-10 shadow-md cursor-pointer hover:opacity-70 rounded-md flex items-center justify-center bg-slate-900"
         >
           <img className="w-5" src="./shopping-cart.svg" alt="" />
         </div>
