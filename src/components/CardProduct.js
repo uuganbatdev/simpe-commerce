@@ -1,6 +1,6 @@
 export default function CardProduct() {
   return (
-    <div class="relative flex   flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+    <div class="relative flex  flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
       <div
         class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl"
         href="#"

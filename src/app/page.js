@@ -5,6 +5,7 @@ import { useState } from "react";
 import Drawer from "react-modern-drawer";
 import React from "react";
 import "react-modern-drawer/dist/index.css";
+import IconButton from "@/components/IconButton";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,24 +25,14 @@ export default function Home() {
         <div className="p-4 max-w-[600px] mx-auto pt-8">
           <div className="flex justify-between items-center">
             <span className="font-medium">Сагс</span>
-            <div
-              onClick={toggleDrawer}
-              className="w-10 h-10 shadow-md cursor-pointer hover:opacity-70 rounded-md flex items-center justify-center bg-slate-900"
-            >
-              <img className="w-5 " src="./x.svg" alt="" />
-            </div>
+            <IconButton onClick={toggleDrawer} src="./x.svg" />
           </div>
         </div>
       </Drawer>
       <div className="flex justify-between items-center w-full">
         <div className="w-10"></div>
         <img src="/logo.png" alt="logo" className="h-14 rounded-full" />
-        <div
-          onClick={toggleDrawer}
-          className="w-10 h-10 shadow-md cursor-pointer hover:opacity-70 rounded-md flex items-center justify-center bg-slate-900"
-        >
-          <img className="w-5" src="./shopping-cart.svg" alt="" />
-        </div>
+        <IconButton onClick={toggleDrawer} src="./shopping-cart.svg" />
       </div>
       <CardProduct />
       <CardProduct />
