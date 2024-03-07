@@ -35,11 +35,7 @@ export default function Home() {
       </Drawer>
       <div className="flex justify-between items-center w-full">
         <div className="w-10"></div>
-        <img
-          src="/logo.jpg"
-          alt="logo"
-          className="w-20 h-20 shadow-md rounded-full"
-        />
+        <img src="/logo.png" alt="logo" className="h-14 rounded-full" />
         <div
           onClick={toggleDrawer}
           className="w-10 h-10 shadow-md cursor-pointer hover:opacity-70 rounded-md flex items-center justify-center bg-slate-900"
