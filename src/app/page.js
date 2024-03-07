@@ -21,7 +21,7 @@ export default function Home() {
         direction="right"
         style={{ background: "rgba(255,255,255,0.95)" }}
       >
-        <div className="p-4 max-w-[600px] mx-auto pt-11">
+        <div className="p-4 max-w-[600px] mx-auto pt-8">
           <div className="flex justify-between items-center">
             <span className="font-medium">Сагс</span>
             <div
