@@ -20,7 +20,7 @@ export default function CardProduct() {
           <span class="white ml-2">Сагсанд нэмэх (дууссан)</span>
         </div>
 
-        <div class="flex cursor-pointer flex-col select-none mt-2  items-center justify-center rounded-md bg-slate-900 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
+        <div class="flex cursor-pointer icon-button-shadow transition transform hover:shadow-none hover:translate-x-1 hover:translate-y-1 bg-main flex-col select-none mt-2  items-center justify-center rounded  px-5 py-2.5 text-center text-sm font-medium text-white  ">
           <div className="flex items-center space-x-2">
             <span class="text-xs font-bold white line-through">₮150,000</span>
             <span class="text-lg font-bold white ">₮100,000</span>
